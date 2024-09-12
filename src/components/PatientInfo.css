@@ -1,0 +1,20 @@
+.patient-info {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  
+}
+
+.info-section {
+  margin-bottom: 20px;
+}
+
+.info-section h4 {
+  margin-bottom: 10px;
+}
+
+.info-section p {
+  margin: 5px 0;
+}

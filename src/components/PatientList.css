@@ -1,0 +1,151 @@
+.patient-list-container {
+  margin-top: 20px;
+  padding: 0px 25px 0px 25px;
+  background-color: white;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px 0px 15px;
+  color: grey;
+  font-size: 1.4rem;
+  border-bottom: solid  rgb(231, 225, 225) 2px;
+}
+
+.patient-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+
+.patient-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: none ;
+  border-left: none ;
+  border-right: none ;
+  align-items: center;
+  background-color: white;
+  transition: border 0.3s ease;
+}
+
+
+.patient-item:hover {
+  border: 3px solid black;
+}
+
+.icon-button:hover{
+  border: 3px solid rgb(109, 207, 240);
+  border-radius: 20%;
+}
+
+
+.patient-info {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 15px !important;
+  margin: 5px !important;
+  gap: 15px;
+  border: none !important;
+}
+
+.patient-icon {
+  background-color: grey;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 15px;
+  font-weight: bold;
+  border: none;
+  padding: 0;
+}
+
+.patient-name {
+  font-weight:lighter;
+  margin-right: 10px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.patient-gender {
+  font-weight: lighter;
+  font-size: 0.9rem;
+  color: grey;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.patient-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-button img {
+  width: 30px;
+  height: 30px;
+}
+
+.status-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.status {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: grey;
+  font-weight:lighter;
+}
+
+.status-dot.completed {
+  background-color: green;
+}
+
+.status-dot.sent {
+  background-color: yellow;
+}
+
+.status-dot.expired {
+  background-color: red;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-gender{
+  font-size: 1.2rem;
+  padding-top: 3px;
+}
+
+.patient-info img {
+  height: 35px !important;  
+  width: 35px !important;  
+  object-fit: cover; 
+  border-radius: 50%; 
+}
