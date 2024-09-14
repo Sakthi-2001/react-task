@@ -52,7 +52,7 @@ function App() {
                 </select>
               </div>
               <button className="add-patient-button" onClick={toggleModal}>
-                + New Patient
+                + &nbsp;  New Patient
               </button>
             </div>
           </div>
@@ -62,8 +62,8 @@ function App() {
 
           {selectedPatient && <PatientInfo patient={selectedPatient} />}
 
-      <PatientFormModal isOpen={isModalOpen} onClose={toggleModal} addNewPatient={addPatient} />
-      </div>
+        <PatientFormModal isOpen={isModalOpen} onClose={toggleModal} addNewPatient={addPatient} />
+        </div>
       </div>
   );
 }

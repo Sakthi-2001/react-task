@@ -1,31 +1,36 @@
 .patient-stats {
     display: flex;
     justify-content:space-around;
-    margin-bottom: 20px;
+    margin: 0;
   }
   
   .stat-card {
     background-color: #f2f2f2;
     border-radius: 50px;
-    padding: 0px 50px 0px 50px;
-    text-align: left;
+    padding: 0px 0px 0px 50px;
+    text-align: centre;
+    align-items: flex-end;
     display:flex;
-    width: 550px
+    height: 300px;
+    width: 580px;
+    margin: 0;
+    gap: 50px;
   }
 
   .stat-card-2 {
-    background-color: #f2f2f2;
+    background-color: #a22424;
     border-radius: 50px;
-    padding: 20px 50px 100px 50px;
+    padding: 0px 0px 0px 40px;
     text-align: left;
     display:flex;
     flex-direction: column;
-    width: 550px;
+    width: 600px;
+    height: 300px;
     color: white;
   }
   
   .stat-card h3 {
-    font-size: 2rem;
+    font-size: 2rem !important;
     margin: 0;
   }
 
@@ -38,31 +43,74 @@
     font-size: 8rem;
   }
 
+  .stat-card .dyn  {
+    font-size: 8rem;
+    width: 300px;
+  }
+
   .stat-card-2 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .stat-card p {
     margin: 0;
     color: #666;
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
   
   .stat-card-2 button {
     display: flex;
-    padding: 15px 10px 15px 55px;
+    padding: 15px 0px 15px 40px;
     color: black;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     font-size: 1.7rem;
-    width:300px;
+    font-weight: lighter;
+    width:280px;
     align-items: center;
   }
 
-  .stat-card img{
-    width: 75%;
-    height:75%;
-    padding: 10px 10px 20px 30px;
+  .stat-card-2 button:hover{
+    transform: scale(1.05);
   }
 
+  .blueberry img{
+    width: 78%;
+    height: 85%;
+    padding: 10px 25px 30px 40px;
+  }
+
+  .head .topic{
+    font-weight: 500;
+    font-size: 2.3rem !important;
+  }
+  
+
+  .head{
+    padding: 0px 0px 30px 0px;
+    width: 400px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .head h1{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 55px;
+  }
+  
+  .strawberry img{
+    height:100%;
+    width: 150%;
+  }
+
+  .strawberry{
+    width: 100%;
+    height: 90%;
+    padding: 10px 80px 55px 0px;
+  }
   

@@ -22,7 +22,7 @@
 
 .patient-item {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   padding: 15px;
   border-top: none ;
   border-left: none ;
@@ -34,19 +34,21 @@
 
 
 .patient-item:hover {
-  border: 3px solid black;
+  transform: scale(1.002);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .icon-button:hover{
-  border: 3px solid rgb(109, 207, 240);
-  border-radius: 20%;
+  border: 3px solid rgb(172, 226, 244);
+  border-radius: 50%;
+  background-color: rgb(226, 244, 250) ;
 }
 
 
 .patient-info {
   display: flex;
   align-items: center;
-  background-color: transparent;
+  background-color: none;
   border: none;
   padding: 15px !important;
   margin: 5px !important;
@@ -70,10 +72,9 @@
 }
 
 .patient-name {
-  font-weight:lighter;
+  font-weight:normal;
   margin-right: 10px;
   border: none;
-  padding: 0;
   margin: 0;
 }
 
@@ -91,27 +92,51 @@
   align-items: center;
   justify-content: space-between;
   gap: 25px;
+  width:450px
 }
 
 .icon-button {
-  background: none;
+  background: white;
+  border: none;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 60px;
+  width: 70px;
+}
+
+.icon-button_2 {
+  background: white;
   border: none;
   cursor: pointer;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  height: 60px;
+  width: 70px;
 }
 
 .icon-button img {
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 43px;
+}
+
+.icon-button_2 img{
+  width: 50px;
+  height: 43px;
 }
 
 .status-dot {
   width: 15px;
   height: 15px;
   border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .status {
@@ -119,6 +144,8 @@
   margin-right: 10px;
   color: grey;
   font-weight:lighter;
+  white-space: nowrap;
+  flex-grow: 1;
 }
 
 .status-dot.completed {
@@ -133,9 +160,14 @@
   background-color: red;
 }
 
+.status-dot.pending {
+  background-color: orange;
+}
+
 .bio {
   display: flex;
   flex-direction: column;
+  padding-left: 8px;
 }
 
 .patient-gender{
@@ -144,8 +176,32 @@
 }
 
 .patient-info img {
-  height: 35px !important;  
-  width: 35px !important;  
+  height: 45px !important;  
+  width: 45px !important;  
   object-fit: cover; 
   border-radius: 50%; 
+}
+
+.circle {
+  width: 75px;          
+  height: 75px;         
+  background-color: #f04e32;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;   
+  color: white;
+}
+
+.patient-actions .contact {
+  display: flex;
+  gap: 30px;
+}
+
+.status-cont {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 150px;
 }

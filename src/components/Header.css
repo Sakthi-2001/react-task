@@ -21,6 +21,11 @@
   border-radius: 50%;
 }
 
+.user-avatar:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .logo {
   display: flex;
   justify-content: flex-start;
