@@ -60,8 +60,8 @@ function App() {
           <PatientStats patients={patients} />
           <PatientList patients={patients} handleSelectPatient={handleSelectPatient} />
 
-          {selectedPatient && <PatientInfo patient={selectedPatient} />}
-
+          {/*}{selectedPatient && <PatientInfo patient={selectedPatient} />}
+          {*/}
         <PatientFormModal isOpen={isModalOpen} onClose={toggleModal} addNewPatient={addPatient} />
         </div>
       </div>
