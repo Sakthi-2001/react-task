@@ -121,11 +121,9 @@
 /* Styles for tablets and smaller laptops (769px - 1024px) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   /* Your CSS for tablets or small laptops */
-  body {
-    background-color: lightyellow;
-  }
+
   .container {
-    width: 85%;
+    zoom:0.5;
   }
 }
 
