@@ -100,5 +100,58 @@
   border-color: #000;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+/* Styles for mobile phones in portrait mode (320px - 480px) */
+@media only screen and (max-width: 480px) {
+  /* Your CSS for small mobile phones */
 
+  .container {
+    width: 95%;
+  }
+}
 
+/* Styles for mobile phones in landscape mode or larger screens (481px - 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* Your CSS for larger mobile phones or tablets */
+
+  .container {
+    width: 90%;
+  }
+}
+
+/* Styles for tablets and smaller laptops (769px - 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Your CSS for tablets or small laptops */
+  body {
+    background-color: lightyellow;
+  }
+  .container {
+    width: 85%;
+  }
+}
+
+/* Styles for 14-inch laptops (commonly 1366px or similar) */
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
+  /* Your CSS for 14-inch laptops */
+
+  .app-container {
+    zoom:0.8;
+  }
+}
+
+/* Styles for 15.6-inch laptops (commonly 1920px or similar) */
+@media only screen and (min-width: 1401px) and (max-width: 2000px) {
+  /* Your CSS for 15.6-inch laptops */
+
+  .app-container {
+    width: 100%;
+  }
+}
+
+/* Styles for screens larger than 15.6-inch */
+@media only screen and (min-width: 2001px) {
+  /* Your CSS for screens larger than 15.6-inch */
+
+  .app-container {
+    width: 100%;
+  }
+}
