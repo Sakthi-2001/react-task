@@ -134,7 +134,7 @@
   /* Your CSS for 14-inch laptops */
 
   .app-container {
-    zoom: 80%;
+    zoom: 0.8;
   }
 }
 
