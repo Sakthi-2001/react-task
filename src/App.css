@@ -132,11 +132,9 @@
 /* Styles for 14-inch laptops (commonly 1366px or similar) */
 @media only screen and (min-width: 1025px) and (max-width: 1400px) {
   /* Your CSS for 14-inch laptops */
-  body {
-    background-color: lightyellow;
-  }
+
   .app-container {
-    width: 120%;
+    width: 110%;
   }
 }
 
